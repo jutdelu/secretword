@@ -20,6 +20,8 @@ const Game = ({
         verifyLetter(letter);
 
         setLetter("");
+
+        letterInputRef.current.focus();
     }
 
   return (
@@ -52,6 +54,7 @@ const Game = ({
                 required 
                 onChange={(e)=>setLetter(e.target.value)}
                 value={letter}
+                ref={letterInputRef}
                 />
                 <button>Jogar!</button>
             </form>
