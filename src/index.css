@@ -6,15 +6,15 @@ body {
   font-family: Helvetica;
   margin: 0;
   padding: 0;
-  background: linear-gradient(180deg, rgba(9,35,175,1) 0%, rgba(0,0,0,1) 100%);
-  color: #fff;
+  background: linear-gradient(180deg, #D7AEEB 0%, #AEE6EB 100%);
+  color: #826ef3
 }
 
 button {
-  background: #1646a0;
-  color: #fff;
+  background: #AEE6EB;
+  color: #A99BFA;
   padding: 0 45px;
-  border: 2px solid #fff;
+  border: 2px solid #A99BFA;
   border-radius: 25px;
   height: 50px;
   text-transform: uppercase;
@@ -25,5 +25,5 @@ button {
 }
 
 button:hover {
-  background-color: #0923af;
+  background-color: #63e6df;
 }
